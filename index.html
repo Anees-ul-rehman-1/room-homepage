@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO PRIMARY TAGS -->
+    <title>Room homepage | Frontend Mentor</title>
+    <meta name="title" content="Room homepage | Frontend mentor">
+    <meta name="description" content="">
+    <meta name="author" content="Anees Ul Rehman">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="">
+
+    <!-- OPEN GRAPH / FACEBOOK / LINKEDIN -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Room homepage | Frontend Mentor">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="Room homepage">
+
+    <!-- TWITTER / X CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Room homepage">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+
+    <!-- FAVICON -->
+    <link rel=" icon" type="image/png" sizes="32x32" href="/src/assets/images/favicon-32x32.png">
+
+    <!-- THEME COLOR -->
+    <link name="theme-color" content="">
+
+    <!-- TAILWIND CSS -->
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body class="w-full font-spartan text-grey-500">
+    <!-- HEADER CONTENT -->
+    <header class="fixed p-4 flex w-full md:w-fit justify-between items-center z-50">
+        <div class="flex gap-[clamp(1rem,5vw,4rem)]">
+            <button id="hamburger" class="md:hidden shrink-0" aria-label="Menu" aria-expanded="false"
+                aria-controls="navLinks">
+                <img src="/src/assets/images/icon-hamburger.svg" alt="">
+            </button>
+            <a href="#" class="shrink-0">
+                <img id="logo" src="/src/assets/images/logo.svg" alt="Room">
+            </a>
+        </div>
+        <nav>
+            <ul id="navLinks"
+                class="flex font-semibold gap-[clamp(0.5rem,5vw,2rem)] -translate-y-20 invisible md:visible md:translate-0 md:px-10 transition text-white">
+                <li class="linkHover"><a href="#">Home</a></li>
+                <li class="linkHover"><a href="#">Shop</a></li>
+                <li class="linkHover"><a href="#">About</a></li>
+                <li class="linkHover"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <section id="heroSection" class="flex items-center flex-wrap">
+            <div class="grow relative">
+                <picture>
+                    <source id="desktopImg" media="(min-width: 768px)" srcset="">
+                    <img id="mobileImg" class="min-w-full md:max-h-130" src="" alt="Hero image">
+                </picture>
+                <div>
+                    <button id="leftBtn" class="p-5 absolute top-1/2 left-0 hover:bg-grey-800">
+                        <img src="/src/assets/images/icon-angle-left.svg" alt="Left Arrow">
+                    </button>
+                    <button id="rightBtn" class="p-5 absolute px-5 top-1/2 right-0 hover:bg-grey-800">
+                        <img src="/src/assets/images/icon-angle-right.svg" alt="Right Arrow">
+                    </button>
+                </div>
+            </div>
+            <div class="py-10 px-5 space-y-3 max-w-md">
+                <h1 id="heading" class="text-[clamp(1.5rem,2.5vw,2rem)] font-bold leading-[1.1] text-black"></h1>
+                <p id="description"></p>
+                <a href="#"
+                    class="flex items-center uppercase tracking-[0.8rem] mt-8 font-bold text-black hover:text-grey-500">Shop
+                    now
+                    <img src="/src/assets/images/icon-arrow.svg" alt="Arrow icon">
+                </a>
+            </div>
+        </section>
+        <section class="flex items-center flex-wrap">
+            <div class="grow">
+                <img class="min-w-full min-h-full md:max-h-130" src="/src/assets/images/image-about-dark.jpg"
+                    alt="About Dark Image">
+            </div>
+            <div class="py-10 px-5 space-y-3 max-w-md">
+                <h2
+                    class="text-[clamp(1.1rem,2.5vw,1.5rem)] font-semibold leading-[1.1] uppercase tracking-[.5rem] text-black">
+                    About our furniture</h2>
+                <p>Our multifunctional collection blends design and function to suit your individual taste. Make each
+                    room unique, or pick a cohessive theme that best express your interests and what inspires you. Find
+                    the furniture peices you need. From tradional to contemporary styles or any thing in between.
+                    Product specialists are available to help you create your dream space.</p>
+            </div>
+            <div class="grow">
+                <img class="min-w-full md:max-h-130" src="/src/assets/images/image-about-light.jpg"
+                    alt="About light image">
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER CONTENT -->
+    <footer class="text-center px-5 py-2 md:text-start">
+        Challenge by <a class="text-blue-400" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a class="text-blue-400" href="https://github.com/Anees-ul-rehman-1" target="_blank">Anees Ul Rehman</a>.
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
