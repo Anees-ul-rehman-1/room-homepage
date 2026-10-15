@@ -4,8 +4,8 @@ A responsive landing page built as a practice project for the [Room homepage](ht
 
 ## Live Demo
 
-- Live site: [View the live site](https://your-live-site-url)
-- Source code: [View the source code](https://github.com/Anees-ul-rehman-1/room-homepage)
+- Live site: [View the live site](https://room-homepage-liard-delta.vercel.app/)
+- Source code: [View the source code](https://github.com/Anees-ul-rehman-1/room-homepage.git)
 
 ## Features
 
